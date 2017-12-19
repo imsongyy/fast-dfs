@@ -4,6 +4,6 @@ import org.junit.Test;
 public class BuildTest {
     @Test
     public void test1(){
-        System.out.println(111);
+        Assert.assertEquals(1111,2222);
     }
 }
