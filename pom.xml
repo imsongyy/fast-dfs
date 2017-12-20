@@ -28,5 +28,12 @@
   </dependencies>
   <build>
     <finalName>FastDfs-web</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>2.10.4</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
